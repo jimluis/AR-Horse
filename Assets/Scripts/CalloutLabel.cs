@@ -11,7 +11,6 @@ public class CalloutLabel : MonoBehaviour
     {
         line.startWidth = 0.01f;
         line.endWidth = 0.01f;
-        line.enabled = false;
     }
 
     // Update is called once per frame

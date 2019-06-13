@@ -60,6 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AWS\Examples\S3Example.cs" />
+    <Compile Include="Assets\Scripts\AWSManager.cs" />
     <Compile Include="Assets\Scripts\CalloutLabel.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
@@ -67,10 +69,12 @@
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+    <None Include="Assets\AWS\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+    <None Include="Assets\AWS\Examples\License.txt" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
@@ -298,6 +302,18 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.SecurityToken">
+      <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Assets/AWS/AWSSDK/AWSSDK.SecurityToken.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.CognitoIdentity">
+      <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Assets/AWS/AWSSDK/AWSSDK.CognitoIdentity.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Core">
+      <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Assets/AWS/AWSSDK/AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.S3">
+      <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Assets/AWS/AWSSDK/AWSSDK.S3.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -334,6 +334,18 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="AWSSDK.SecurityToken">
+      <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Assets/AWS/AWSSDK/AWSSDK.SecurityToken.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.CognitoIdentity">
+      <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Assets/AWS/AWSSDK/AWSSDK.CognitoIdentity.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Core">
+      <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Assets/AWS/AWSSDK/AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.S3">
+      <HintPath>/Users/luisfelipejimenez/Documents/AR/AR Anatomy Experience/Assets/AWS/AWSSDK/AWSSDK.S3.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>

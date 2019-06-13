@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{1FBE750D-8736-EAB6-3072-1CFEBF7EC013}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/CreateAssetBundles.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AWSManager.cs">
     <Files>
       <File FileName="Assets/Scripts/UIManager.cs" Line="35" Column="11" />
       <File FileName="Assets/Scripts/CalloutLabel.cs" Line="13" Column="31" />
       <File FileName="Assets/Editor/CreateAssetBundles.cs" Line="9" Column="59" />
+      <File FileName="Assets/Scripts/AWSManager.cs" Line="14" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
